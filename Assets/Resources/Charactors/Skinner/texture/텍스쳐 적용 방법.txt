@@ -1,0 +1,4 @@
+Skinner 메터리어 - 베이스컬러, 노말맵, 러스니스를 넣어주고 Smoothness를 0.1으로 주세요
+glass 메터리어 - Rendering Mode를 Fade로 바꿔주고 Albedo에서 A(알파) 값을 50으로 적용해주세요
+eye 메터리어 - 베이스 컬러를 적용하고 다른 거는 그대로 놔주세요
+cloth 메터리어 - 베이스 컬러를 적용해주시고 Smoothness를 0.1으로 주세요
