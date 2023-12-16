@@ -26,16 +26,20 @@ readme
 LFS로 저장했기 때문에
 
 1. git bash 사용
-
+   
+```ShellSession
 $ git clone "https://github.com/PrayKKK/PhiloverseOrg.git"
-
+```
 2. 클론파일 들어가서
 
+```ShellSession
 $ git lfs pull
-
+```
 안될시 다운받았던 클론 지우고 해당폴더에
-$ curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
 
+```ShellSession
+$ curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+```
 그리고 다시 1~2번 실행.
 
 위 내용이 모두 불가능 할 경우 
