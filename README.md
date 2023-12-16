@@ -1,38 +1,63 @@
 # PhiloverseOrg
 필로버스 초기 원본파일
-LFS로 저장했기 때문에
-git bash를 통해 클론을 다운받고
-git lfs pull해야 다운가능
 readme
 
-<개요>
+#### <개요>
 
 디지털콘텐츠를 활용한 인문학과 철학 교육 프로그램
 
-<시스템 구성도> 
+#### <시스템 구성도> 
 
 ![image](https://github.com/PrayKKK/PhiloverseOrg/assets/105548573/7cb2d31c-2926-4862-9a82-1c07b3b17f72)
 
-<실행 환경>
+#### <실행 환경>
 
-개발 : 유니티
+개발 : 유니티 (Ver: Unity 2021.3.8f1)
+
 모델링 : 마야 
+
 멀티플레이 : 포톤
+
 개발소스 : 유니티 에셋 
+
 음원 : 유니티 에셋 
 
-<실행 방법>
+#### <실행 방법>
+LFS로 저장했기 때문에
 
-PC 프로그램 실행 
-(philoverse.exe)
-안드로이드 애플리케이션 실행
-(philoverse.apk) 
+1. git bash 사용
 
-<동작 방법>
+$ git clone "https://github.com/PrayKKK/PhiloverseOrg.git"
 
-화면터치 또는 키보드와 마우스를 통해 동작
+2. 클론파일 들어가서
 
-<화면 캡쳐> 
+$ git lfs pull
+
+안될시 다운받았던 클론 지우고 해당폴더에
+$ curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+
+그리고 다시 1~2번 실행.
+
+위 내용이 모두 불가능 할 경우 
+
+email : dlrltkd1145@naver.com
+
+3. unity 버전에 맞춰 실행
+
+4. Scene 폴더 MusiumScene으로 Play
+
+* Playfab , Photon 정의 필요
+
+#### <동작 방법>
+
+이동 : WASD 
+
+점프 : SpaceBar
+
+상호작용 : 마우스 클릭
+
+#### <화면 캡쳐> 
+
 ![image](https://github.com/PrayKKK/PhiloverseOrg/assets/105548573/cb02c828-f6c6-4519-bd4d-d37fa29b0f03)
 
 
@@ -45,41 +70,16 @@ PC 프로그램 실행
 
 
 
-<참여자 명단> 
+#### <참여자 명단> 
 
-No
-학과(전공)
-성명
-학년
-학번
-업무분담
-1
-디지털콘텐츠공학과
-김학찬
-3
-20183312
-기획/연출
-2
-디지털콘텐츠공학과
-김준희
-3
-20173281
-개발
-3
-디지털콘텐츠공학과
-심미림
-4
-20192864
-디자인
-4
-디지털콘텐츠공학과
-이강인
-3
-20183335
-개발
-5
-디지털콘텐츠공학과
-최정현
-3
-20183347
-기획/연출
+No       학과(전공)       성명        학번      업무분담
+
+1    디지털콘텐츠공학과    김학찬    20183312    기획/연출
+
+2    디지털콘텐츠공학과    김준희    20173281    개발
+
+3    디지털콘텐츠공학과    심미림    20192864    디자인
+
+4    디지털콘텐츠공학과    이강인    20183335    개발
+
+5    디지털콘텐츠공학과    최정현    20183347    기획/연출
