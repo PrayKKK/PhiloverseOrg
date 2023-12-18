@@ -49,8 +49,12 @@ email : dlrltkd1145@naver.com
 3. unity 버전에 맞춰 실행
 
 4. Scene 폴더 MusiumScene으로 Play
-
-* Playfab , Photon 정의 필요
+5. 
+#### <추가 환경 설정>
+PhotonPun 관리자 로그인
+ Pun마법사 또는 PhotonServerSettings의 App Settings>App Id Realtime 에 AppId(or Email)를 입력한다.
+PlayFab 관리자 로그인
+ 유니티 에디터 상단의 PlayFab>MakePlayFabShareSetting 클릭 후 PlayFab프로젝트 ID와 비밀 키를 입력한다.
 
 #### <동작 방법>
 
